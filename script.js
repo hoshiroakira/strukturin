@@ -166,7 +166,6 @@ function generateSidebar() {
         const li = document.createElement('li');
         const a = document.createElement('a');
         a.href = item.link || '#'; // Default to '#' if no link is provided
-        a.target = "_blank";
         const span = document.createElement('span');
         span.textContent = item.name;
         a.appendChild(span);
