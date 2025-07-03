@@ -128,31 +128,31 @@ function copyrightDate() {
 
 // List of sidebar items with absolute directory
 const sidebarItems = [
-    { name: "Vesperon Lunaris", link: "/index.html" },
-    { name: "Penafian dan Lisensi Konten", link: "/disclaimer/index.html" },
-    { name: "Cara Mengunduh Materi", link: "/download/index.html" },
+    { name: "Vesperon Lunaris", link: "/" },
+    { name: "Penafian dan Lisensi Konten", link: "/disclaimer/" },
+    { name: "Cara Mengunduh Materi", link: "/download/" },
     { 
-        name: "Teknik Sipil (teori)", link: "/civil/classes/index.html", 
+        name: "Teknik Sipil (teori)", link: "/civil/classes/", 
         submenu: [
-            { name: "Ilmu Ukur Tanah", link: "/civil/classes/surveying/index.html" }
+            { name: "Ilmu Ukur Tanah", link: "/civil/classes/surveying/" }
         ]
     },
     { 
-        name: "Teknik Sipil (praktikum)", link: "/civil/labs/index.html",
+        name: "Teknik Sipil (praktikum)", link: "/civil/labs/",
         submenu: [
-            { name: "Mekanika Tanah", link: "/civil/labs/soil-test/index.html" }
+            { name: "Mekanika Tanah", link: "/civil/labs/soil-test/" }
         ]
     },
     { 
-        name: "Fisika Dasar", link: "/physics/index.html",
+        name: "Fisika Dasar", link: "/physics/",
         submenu: [
-            { name: "Kesetimbangan Benda Tegar", link: "/physics/rigid-body.html" }
+            { name: "Kesetimbangan Benda Tegar", link: "/physics/" }
         ]
     },
     { 
-        name: "Kimia Dasar", link: "/chemistry/index.html",
+        name: "Kimia Dasar", link: "/chemistry/",
         submenu: [
-            { name: "Asam dan Basa Konjugasi", link: "/chemistry/acid-base.html" }
+            { name: "Asam dan Basa Konjugasi", link: "/chemistry/" }
         ]
     }
 ];
