@@ -183,7 +183,6 @@ function generateSidebar() {
                 const submenuLi = document.createElement('li');
                 const submenuA = document.createElement('a');
                 submenuA.href = subitem.link || '#';
-                submenuA.target = "_blank";
                 const submenuSpan = document.createElement('span');
                 submenuSpan.textContent = subitem.name;
                 submenuA.appendChild(submenuSpan);
