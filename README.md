@@ -75,4 +75,4 @@ Navigate through the website using the sidebar (if implemented) or direct links 
 
 ## License
 
-All learning materials, including documents, program code, diagrams, and data, available on this website are licensed under the [**GNU General Public License v3.0**](https://www.gnu.org/licenses/gpl-3.0.html). Please refer to the [Disclaimer page](disclaimer/index.html) for full details on content licensing and usage terms. Make sure to read the disclaimer in the website for further information.
+All learning materials, including documents, program code, diagrams, and data, available on this website are licensed under the [**GNU General Public License v3.0**](https://www.gnu.org/licenses/gpl-3.0.html). Please refer to the [disclaimer page](https://vesperon-lunaris.pages-dev/disclaimer/) for full details on content licensing and usage terms. Make sure to read the disclaimer in the website for further information.
