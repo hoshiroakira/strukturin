@@ -97,7 +97,7 @@ function enableCopyright() {
     }
     // Update only the copyright display rule
     styleElement.textContent = `
-        @media only screen and (min-width: 300px) {
+        @media only screen and (min-width: 320px) {
             .copyright {
                 display: block !important;
             }
