@@ -46,7 +46,7 @@ This project is a static website, so there's no complex installation process.
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your_username/vesperon-lunaris.git](https://github.com/your_username/vesperon-lunaris.git)
+    git clone https://github.com/your_username/vesperon-lunaris.git
     ```
     (Replace `your_username` with your actual GitHub username)
 2.  **Navigate to the project directory:**
