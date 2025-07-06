@@ -1,11 +1,14 @@
 document.addEventListener('DOMContentLoaded', function() {
     enableJSStyles();
     enableSidebar();
+    enableSearhbar();
     mainframeFix();
     imageFix();
     enableCopyright();
     copyrightDate();
     generateSidebar();
+    setupMenuToggle();
+    generateDropdown();
 })
 
 // Basic website descriptions
@@ -43,6 +46,25 @@ function enableSidebar() {
             .sidebar {
                 display: block !important;
                 width: 25% !important;
+            }
+        }
+    `;
+}
+
+// Function to enable the search bar
+function enableSearhbar() {
+    // Create or reuse a style element
+    let styleElement = document.getElementById('js-search-bar-styles');
+    if (!styleElement) {
+        styleElement = document.createElement('style');
+        styleElement.id = 'js-search-bar-styles';
+        document.head.appendChild(styleElement);
+    }
+    // Update only the search bar display and width rule
+    styleElement.textContent = `
+        @media only screen and (min-width: 320px) and (max-width: 1009px) {
+            .search-bar {
+                display: flex !important;
             }
         }
     `;
@@ -200,4 +222,67 @@ function generateSidebar() {
     });
     // Clear existing content and append the new sidebar
     sidebar.appendChild(ul);
+}
+
+// Function to handle toggle functionality for mobile menu dropdown
+function setupMenuToggle() {
+    // Get the search bar box and dropdown list elements
+    const searchBarBox = document.getElementById('search-bar-box');
+    const dropdownList = document.getElementById('dropdown-list');
+    
+    // Toggle dropdown visibility on search bar box click
+    searchBarBox.addEventListener('click', function() {
+        dropdownList.style.display = dropdownList.style.display === 'block' ? 'none' : 'block';
+    });
+    // Close dropdown if clicking outside of it
+    window.addEventListener('click', function(event) {
+        if (!searchBarBox.contains(event.target) && !dropdownList.contains(event.target)) {
+            dropdownList.style.display = 'none';
+        }
+    });
+}
+
+// Function to generate the dropdown (search bar) based on the data provided in the list
+function generateDropdown() {
+    const dropdown = document.querySelector('.dropdown');
+    const ul = document.createElement('ul');
+    ul.classList.add('dropdown-item'); // Apply the dropdown-item class
+    sidebarItems.forEach(item => {
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.href = item.link || '#'; // Default to '#' if no link is provided
+        const span = document.createElement('span');
+        span.textContent = item.name;
+        a.appendChild(span);
+        // Highlight current page
+        if (window.location.pathname === a.pathname) {
+            a.classList.add('dropdown-item-active');
+        }
+        li.appendChild(a);
+        // Check if the item has a submenu
+        if (item.submenu) {
+            const submenuUl = document.createElement('ul');
+            submenuUl.classList.add('dropdown-item-submenu'); // Apply the dropdown-item-submenu class
+            item.submenu.forEach(subitem => {
+                const submenuLi = document.createElement('li');
+                const submenuA = document.createElement('a');
+                submenuA.href = subitem.link || '#';
+                const submenuSpan = document.createElement('span');
+                submenuSpan.textContent = subitem.name;
+                submenuA.appendChild(submenuSpan);
+                // Maintain the original styling for submenu items
+                submenuLi.classList.add('dropdown-item-submenu-item'); // Apply the dropdown-item-submenu-item class
+                // Highlight current subpage
+                if (window.location.pathname === submenuA.pathname) {
+                    submenuA.classList.add('dropdown-item-active');
+                }
+                submenuLi.appendChild(submenuA);
+                submenuUl.appendChild(submenuLi);
+            });
+            li.appendChild(submenuUl);
+        }
+        ul.appendChild(li);
+    });
+    // Clear existing content and append the new dropdown
+    dropdown.appendChild(ul);
 }
