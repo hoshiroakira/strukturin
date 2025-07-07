@@ -152,7 +152,7 @@ function copyrightDate() {
 const sidebarItems = [
     { name: "Vesperon Lunaris", link: "/" },
     { name: "Penafian (Disclaimer)", link: "/disclaimer/" },
-    { name: "Atribusi Konten", link: "/attribution/"},
+    { name: "Atribusi dan Lisensi Konten", link: "/attribution/"},
     { name: "Cara Mengunduh Materi", link: "/download/" },
     { 
         name: "Teknik Sipil (teori)", link: "/civil/classes/", 
