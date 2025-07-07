@@ -170,6 +170,11 @@ hr {
     font-weight: bold;
 }
 
+.search-bar-text a {
+    color: #1c1c1c;
+    text-decoration: none;
+}
+
 .dropdown {
     display: none; /* Initially hidden */
     width: 252.5px;
