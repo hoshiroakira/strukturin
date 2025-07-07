@@ -132,7 +132,7 @@ function copyrightDate() {
     const copyrightDiv = document.querySelector('.copyright');
     const copyrightParagraph = document.createElement('p');
     // Text node for the static parts
-    const copyrightStaticText = document.createTextNode(`© ${year} Vesperon Lunaris. Web Version ${version}. See the `);
+    const copyrightStaticText = document.createTextNode(`© ${year} Hoshiro Akira. Web Version ${version}. See the `);
     // Link element
     const copyrightLink = document.createElement('a');
     copyrightLink.href = 'https://github.com/hoshiroakira/vesperon-lunaris';
