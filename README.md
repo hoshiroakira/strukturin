@@ -55,12 +55,6 @@ This project is a static website, so there's no complex installation process.
 3.  **Open `index.html`:**
     Simply open the `index.html` file in your preferred web browser.
 
-    ```
-    # On most systems, you can do:
-    open index.html
-    # Or navigate to the file in your file explorer and double-click it.
-    ```
-
 ## Usage
 
 Navigate through the website using the sidebar (if implemented) or direct links within the content. The homepage provides an overview, and dedicated sections for Civil Engineering, Basic Physics, and Basic Chemistry contain specific learning materials.
