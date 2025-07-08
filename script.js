@@ -151,8 +151,8 @@ function copyrightDate() {
 // List of sidebar items with absolute directory
 const sidebarItems = [
     { name: "Vesperon Lunaris", link: "/" },
-    { name: "Penafian", link: "/disclaimer/" },
-    { name: "Atribusi dan Lisensi Konten", link: "/attribution/"},
+    { name: "Penafian dan Lisensi Konten", link: "/disclaimer/" },
+    { name: "Atribusi Konten", link: "/attribution/"},
     { name: "Cara Mengunduh Materi", link: "/download/" },
     { 
         name: "Teknik Sipil (teori)", link: "/civil/classes/", 
