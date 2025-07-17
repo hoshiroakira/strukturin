@@ -132,10 +132,10 @@ function copyrightDate() {
     const copyrightDiv = document.querySelector('.copyright');
     const copyrightParagraph = document.createElement('p');
     // Text node for the static parts
-    const copyrightStaticText = document.createTextNode(`© ${year} Hoshiro Akira. Web Version ${version}. See the `);
+    const copyrightStaticText = document.createTextNode(`© ${year} Muhammad Randi Kurniawan. Web Version ${version}. See the `);
     // Link element
     const copyrightLink = document.createElement('a');
-    copyrightLink.href = 'https://github.com/hoshiroakira/vesperon-lunaris';
+    copyrightLink.href = 'https://github.com/hoshiroakira/gradient-mind';
     copyrightLink.target = '_blank';
     copyrightLink.rel = 'noopener noreferrer';
     copyrightLink.textContent = 'documentation';
@@ -150,7 +150,7 @@ function copyrightDate() {
 
 // List of sidebar items with absolute directory
 const sidebarItems = [
-    { name: "Vesperon Lunaris", link: "/" },
+    { name: "Gradient Mind", link: "/" },
     { name: "Penafian dan Lisensi Konten", link: "/disclaimer/" },
     { name: "Atribusi Konten", link: "/attribution/"},
     { name: "Cara Mengunduh Materi", link: "/download/" },
