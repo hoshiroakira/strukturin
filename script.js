@@ -153,7 +153,6 @@ const sidebarItems = [
     { name: "Gradient Mind", link: "/" },
     { name: "Penafian dan Lisensi Konten", link: "/disclaimer/" },
     { name: "Atribusi Konten", link: "/attribution/"},
-    { name: "Cara Mengunduh Materi", link: "/download/" },
     { 
         name: "Teknik Sipil (teori)", link: "/civil/classes/", 
         submenu: [
