@@ -1,6 +1,6 @@
-# Gradient Mind
+# Strukturin
 
-The official source code for **Gradient Mind**, an educational website providing in-depth learning materials in **Civil Engineering**, **Basic Physics**, and **Basic Chemistry**.
+The official source code for **Strukturin**, an educational website providing in-depth learning materials in **Civil Engineering**, **Basic Physics**, and **Basic Chemistry**.
 
 ## Table of Contents
 
@@ -15,7 +15,7 @@ The official source code for **Gradient Mind**, an educational website providing
 
 ## About the Project
 
-Gradient Mind is a dedicated online platform designed to serve as an additional learning resource for students and enthusiasts in the exact sciences. This website aims to provide comprehensive and insightful materials particularly focusing on Civil Engineering, alongside fundamental concepts in Basic Physics and Basic Chemistry.
+Strukturin is a dedicated online platform designed to serve as an additional learning resource for students and enthusiasts in the exact sciences. This website aims to provide comprehensive and insightful materials particularly focusing on Civil Engineering, alongside fundamental concepts in Basic Physics and Basic Chemistry.
 
 Our mission is to foster a deeper understanding of these subjects through well-structured content and detailed discussions, making complex topics more accessible.
 
@@ -46,11 +46,11 @@ This project is a static website, so there's no complex installation process.
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/hoshiroakira/gradient-mind.git
+    git clone https://github.com/hoshiroakira/strukturin.git
     ```
 2.  **Navigate to the project directory:**
     ```
-    cd gradient-mind
+    cd strukturin
     ```
 3.  **Open `index.html`:**
     Simply open the `index.html` file in your preferred web browser.
@@ -68,4 +68,4 @@ Navigate through the website using the sidebar (if implemented) or direct links 
 
 ## License
 
-All learning materials, including documents, program code, diagrams, and data, available on this website are licensed under the [**Creative Commons Attribution-ShareAlike 4.0 International**](https://creativecommons.org/licenses/by-sa/4.0/) and [**GNU General Public License v3.0**](https://www.gnu.org/licenses/gpl-3.0.html) respectively. Please refer to the [disclaimer page](https://gradient-mind.pages.dev/disclaimer/) for full details on content licensing and usage terms. Make sure to read the disclaimer in the website for further information.
+All learning materials, including documents, program code, diagrams, and data, available on this website are licensed under the [**Creative Commons Attribution-ShareAlike 4.0 International**](https://creativecommons.org/licenses/by-sa/4.0/) and [**GNU General Public License v3.0**](https://www.gnu.org/licenses/gpl-3.0.html) respectively. Please refer to the [disclaimer page](https://strukturin.pages.dev/disclaimer/) for full details on content licensing and usage terms. Make sure to read the disclaimer in the website for further information.

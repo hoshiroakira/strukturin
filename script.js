@@ -135,7 +135,7 @@ function copyrightDate() {
     const copyrightStaticText = document.createTextNode(`© ${year} Muhammad Randi Kurniawan. Web Version ${version}. See the `);
     // Link element
     const copyrightLink = document.createElement('a');
-    copyrightLink.href = 'https://github.com/hoshiroakira/gradient-mind';
+    copyrightLink.href = 'https://github.com/hoshiroakira/strukturin/';
     copyrightLink.target = '_blank';
     copyrightLink.rel = 'noopener noreferrer';
     copyrightLink.textContent = 'documentation';
@@ -150,7 +150,7 @@ function copyrightDate() {
 
 // List of sidebar items with absolute directory
 const sidebarItems = [
-    { name: "Gradient Mind", link: "/" },
+    { name: "Strukturin", link: "/" },
     { name: "Penafian dan Lisensi Konten", link: "/disclaimer/" },
     { name: "Atribusi Konten", link: "/attribution/"},
     { 
