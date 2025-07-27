@@ -1,6 +1,6 @@
 # Strukturin
 
-The official source code for **Strukturin**, an educational website providing in-depth learning materials in **Civil Engineering**, **Basic Physics**, and **Basic Chemistry**.
+The official source code for **Strukturin**, an educational website providing in-depth learning materials in **Civil Engineering**.
 
 ## Table of Contents
 
@@ -15,7 +15,7 @@ The official source code for **Strukturin**, an educational website providing in
 
 ## About the Project
 
-Strukturin is a dedicated online platform designed to serve as an additional learning resource for students and enthusiasts in the exact sciences. This website aims to provide comprehensive and insightful materials particularly focusing on Civil Engineering, alongside fundamental concepts in Basic Physics and Basic Chemistry.
+Strukturin is a dedicated online platform designed to serve as an additional learning resource for students and enthusiasts in the exact sciences. This website aims to provide comprehensive and insightful materials particularly focusing on Civil Engineering.
 
 Our mission is to foster a deeper understanding of these subjects through well-structured content and detailed discussions, making complex topics more accessible.
 
@@ -57,12 +57,10 @@ This project is a static website, so there's no complex installation process.
 
 ## Usage
 
-Navigate through the website using the sidebar (if implemented) or direct links within the content. The homepage provides an overview, and dedicated sections for Civil Engineering, Basic Physics, and Basic Chemistry contain specific learning materials.
+Navigate through the website using the sidebar (if implemented) or direct links within the content. The homepage provides an overview, and dedicated section for Civil Engineering contain specific learning materials.
 
 * **Homepage:** `index.html`
 * **Civil Engineering:** `civil/index.html`
-* **Basic Physics:** `physics/index.html`
-* **Basic Chemistry:** `chemistry/index.html`
 
 **Note on Local Usage:** Due to the use of absolute paths in the project's scripts, it is recommended to run this website from the root of a drive (e.g., `D:\` or `E:\`) if you are accessing the files directly from your local file system to ensure all links function correctly.
 
