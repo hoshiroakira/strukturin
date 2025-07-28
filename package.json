@@ -1,23 +1,23 @@
 {
-  "name": "vesperon-lunaris",
+  "name": "strukturin",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "The official source code for **Strukturin**, an educational website providing in-depth learning materials in **Civil Engineering**, built with Eleventy.",
+  "main": ".eleventy.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hoshiroakira/vesperon-lunaris.git"
+    "url": "git+https://github.com/hoshiroakira/strukturin.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/hoshiroakira/vesperon-lunaris/issues"
+    "url": "https://github.com/hoshiroakira/strukturin/issues"
   },
-  "homepage": "https://github.com/hoshiroakira/vesperon-lunaris#readme",
+  "homepage": "https://github.com/hoshiroakira/strukturin#readme",
   "dependencies": {
     "@11ty/eleventy": "^3.1.2"
   }
