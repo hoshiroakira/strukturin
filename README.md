@@ -1,6 +1,8 @@
 # Strukturin
 
-The official source code for **Strukturin**, an educational website providing in-depth learning materials in **Civil Engineering**.
+The official source code for **Strukturin**, an educational website providing in-depth learning materials in **Civil Engineering**, built with Eleventy.
+
+---
 
 ## Table of Contents
 
@@ -10,8 +12,12 @@ The official source code for **Strukturin**, an educational website providing in
 * [Getting Started](#getting-started)
     * [Prerequisites](#prerequisites)
     * [Installation](#installation)
+    * [Running Locally](#running-locally)
 * [Usage](#usage)
+* [Deployment](#deployment)
 * [License](#license)
+
+---
 
 ## About the Project
 
@@ -19,51 +25,67 @@ Strukturin is a dedicated online platform designed to serve as an additional lea
 
 Our mission is to foster a deeper understanding of these subjects through well-structured content and detailed discussions, making complex topics more accessible.
 
+---
+
 ## Features
 
 * Comprehensive articles, explanations, and examples for each subject.
 * Dedicated sections covering various aspects of civil engineering.
 * Fundamental concepts explained clearly for foundational understanding.
 * Designed for easy navigation and optimal readability.
+* **Static site generation with Eleventy** for fast, secure, and maintainable output.
+
+---
 
 ## Technologies Used
 
-* **HTML5** for structuring the web content.
-* **CSS3** for styling and layout.
-* **JavaScript** for interactive elements and dynamic content.
+* **Eleventy (11ty):** The static site generator that transforms Markdown content and Nunjucks templates into static HTML.
+* **Nunjucks:** The templating language used for creating reusable layouts and components in Eleventy.
+* **Markdown:** Used for writing the primary content of articles and pages.
+* **HTML5:** The base for structuring the web content.
+* **CSS3:** For styling and layout.
+* **JavaScript:** For interactive elements and dynamic content that runs client-side.
+* **npm:** Node.js package manager for managing project dependencies.
+
+---
 
 ## Getting Started
 
-To get a local copy up and running, follow these simple steps.
+To get a local copy of this project up and running for development, follow these simple steps.
 
 ### Prerequisites
 
-You only need a modern web browser (e.g., Chrome, Firefox, Edge, Safari) to view this website.
+You'll need Node.js and npm (Node Package Manager) installed on your system.
+* **Node.js & npm:** [Download and install Node.js](https://nodejs.org/en/download/) (npm is included with Node.js).
 
 ### Installation
 
-This project is a static website, so there's no complex installation process.
-
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/hoshiroakira/strukturin.git
+    git clone [https://github.com/hoshiroakira/strukturin.git](https://github.com/hoshiroakira/strukturin.git)
     ```
 2.  **Navigate to the project directory:**
-    ```
+    ```bash
     cd strukturin
     ```
-3.  **Open `index.html`:**
-    Simply open the `index.html` file in your preferred web browser.
+3.  **Install Node.js dependencies:**
+    This command installs Eleventy and any other packages listed in `package.json`.
+    ```bash
+    npm install
+    ```
 
-## Usage
+### Running Locally
 
-Navigate through the website using the sidebar (if implemented) or direct links within the content. The homepage provides an overview, and dedicated section for Civil Engineering contain specific learning materials.
+To build the site and serve it on your local machine with live reloading for development:
 
-* **Homepage:** `index.html`
-* **Civil Engineering:** `civil/index.html`
+1.  **Start the Eleventy development server:**
+    ```bash
+    npx @11ty/eleventy --serve
+    ```
+2.  Open your web browser and navigate to the address shown in your terminal (usually `http://localhost:8080/`).
 
-**Note on Local Usage:** Due to the use of absolute paths in the project's scripts, it is recommended to run this website from the root of a drive (e.g., `D:\` or `E:\`) if you are accessing the files directly from your local file system to ensure all links function correctly.
+Eleventy will watch for changes in your source files and automatically rebuild and refresh your browser.
 
-## License
-
-All learning materials, including documents, program code, diagrams, and data, available on this website are licensed under the [**Creative Commons Attribution-ShareAlike 4.0 International**](https://creativecommons.org/licenses/by-sa/4.0/) and [**GNU General Public License v3.0**](https://www.gnu.org/licenses/gpl-3.0.html) respectively. Please refer to the [disclaimer page](https://strukturin.pages.dev/disclaimer/) for full details on content licensing and usage terms. Make sure to read the disclaimer in the website for further information.
+To just build the static files without starting a server (e.g., for deployment preparation):
+```bash
+npx @11ty/eleventy

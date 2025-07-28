@@ -1,15 +1,13 @@
-<!-- Final version (tested and verified) -->
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="description" content="Maaf, laman web yang Anda cari tidak dapat ditemukan. Masalah ini mungkin disebabkan oleh beberapa hal: Alamat (URL) yang Anda masukkan salah ketik. Laman tersebut telah dihapus atau dipindahkan. Tautan yang Anda ikuti sudah tidak berlaku. Silakan periksa kembali alamat yang Anda masukkan, atau Anda bisa kembali ke Halaman Beranda ">
+        <meta name="description" content="{{ description }}">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" user-scalable="none">
-        <title>404 Not Found - Strukturin</title>
-        <script src="https://strukturin.pages.dev/script.js"></script>
-        <link rel="icon" href="https://strukturin.pages.dev/assets/icons/favicon.svg" type="image/svg+xml">
-        <link rel="stylesheet" type="text/css" href="https://strukturin.pages.dev/style.css">
+        <title>{{ title }} - Strukturin</title>
+        <script src="/assets/js/script.js"></script>
+        <link rel="icon" href="/assets/icons/favicon.svg" type="image/svg+xml">
+        <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
     </head>
     <body>
         <div class="screen-forbidden">
@@ -29,10 +27,10 @@
         </div>
         <div class="search-bar">
             <div class="search-bar-box" id="search-bar-box">
-                <img src="https://strukturin.pages.dev/assets/icons/menu.svg" alt="Menu icon" width="25" height="25">
+                <img src="/assets/icons/menu.svg" alt="Menu icon" width="25" height="25">
             </div>
             <div class="search-bar-text">
-                <p><a href="https://strukturin.pages.dev/">Strukturin</a></p>
+                <p><a href="/">Strukturin</a></p>
             </div>
         </div>
         <div class="dropdown" id="dropdown-list"></div>
@@ -41,7 +39,7 @@
             <div class="mainframe">
                 <div class="mainframe-content">
                     <div class="mainframe-content-image">
-                        <img src="https://strukturin.pages.dev/assets/images/background.png" alt="Background image of Gradient Mind">
+                        <img src="/assets/images/background.png" alt="Background image of Gradient Mind">
                     </div>
                     <div class="mainframe-no-js-warning">
                         <div class="mainframe-no-js-warning-content">
@@ -50,25 +48,12 @@
                         </div>
                     </div>
                     <div class="mainframe-content-article">
-                        <div class="content-section">
-                            <h1>Laman Web Tidak Tersedia</h1>
-                        </div>
-                        <div class="content-hr">
-                            <hr>
-                        </div>
-                        <div class="content-section">
-                            <p>Maaf, laman web yang Anda cari tidak dapat ditemukan. Masalah ini mungkin disebabkan oleh beberapa hal:</p>
-                            <ul>
-                                <li>Alamat (URL) yang Anda masukkan salah ketik.</li>
-                                <li>Laman tersebut telah dihapus atau dipindahkan.</li>
-                                <li>Tautan yang Anda ikuti sudah tidak berlaku.</li>
-                            </ul>
-                            <p>Silakan periksa kembali alamat yang Anda masukkan, atau Anda bisa kembali ke <b><a href="index.html">Halaman Beranda Gradient Mind</a></b> untuk menemukan informasi yang Anda cari.</p>
-                        </div>
+                        {{ content | safe }}
                     </div>
                 </div>
             </div>
         </div>
-        <div class="copyright"></div>
+        <div class="copyright">
+        </div>
     </body>
 </html>

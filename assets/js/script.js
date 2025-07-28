@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Basic website descriptions
 const year = "2025";
-const version = "1.0.0";
+const version = "2.0.0";
 
 // Function to enable JavaScript-dependent element if the browser allows JavaScript
 function enableJSStyles() {
@@ -154,27 +154,9 @@ const sidebarItems = [
     { name: "Penafian dan Lisensi Konten", link: "/disclaimer/" },
     { name: "Atribusi Konten", link: "/attribution/"},
     { 
-        name: "Teknik Sipil (teori)", link: "/civil/classes/", 
+        name: "Praktikum Mekanika Tanah", link: "/civil/soil-test/", 
         submenu: [
-            { name: "Ilmu Ukur Tanah", link: "/civil/classes/surveying/" }
-        ]
-    },
-    { 
-        name: "Teknik Sipil (praktikum)", link: "/civil/labs/",
-        submenu: [
-            { name: "Mekanika Tanah", link: "/civil/labs/soil-test/" }
-        ]
-    },
-    { 
-        name: "Fisika Dasar", link: "/physics/",
-        submenu: [
-            { name: "Kesetimbangan Benda Tegar", link: "/physics/" }
-        ]
-    },
-    { 
-        name: "Kimia Dasar", link: "/chemistry/",
-        submenu: [
-            { name: "Asam dan Basa Konjugasi", link: "/chemistry/" }
+            { name: "Pengujian Sondir", link: "/civil/soil-test/cone-penetration-test/" }
         ]
     }
 ];

@@ -1,0 +1,24 @@
+{
+  "name": "vesperon-lunaris",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoshiroakira/vesperon-lunaris.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/hoshiroakira/vesperon-lunaris/issues"
+  },
+  "homepage": "https://github.com/hoshiroakira/vesperon-lunaris#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  }
+}
