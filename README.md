@@ -62,7 +62,7 @@ You'll need Node.js and npm (Node Package Manager) installed on your system.
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/hoshiroakira/strukturin.git](https://github.com/hoshiroakira/strukturin.git)
+    git clone https://github.com/hoshiroakira/strukturin.git
     ```
 2.  **Navigate to the project directory:**
     ```bash
