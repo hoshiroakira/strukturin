@@ -154,9 +154,9 @@ const sidebarItems = [
     { name: "Penafian dan Lisensi Konten", link: "/disclaimer/" },
     { name: "Atribusi Konten", link: "/attribution/"},
     { 
-        name: "Praktikum Mekanika Tanah", link: "/civil/soil-test/", 
+        name: "Ilmu Ukur Tanah", link: "/civil/surveying/", 
         submenu: [
-            { name: "Pengujian Sondir", link: "/civil/soil-test/cone-penetration-test/" }
+            { name: "Menggambar Garis Kontur", link: "civil/surveying/menggambar-garis-kontur/" }
         ]
     }
 ];
