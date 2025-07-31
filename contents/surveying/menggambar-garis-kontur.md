@@ -42,7 +42,9 @@ description: Modul menggambar garis kontur membahas mengenai prinsip, prosedur, 
   </ul>
   <h2 id="rumus-interpolasi-kontur">Rumus Interpolasi Titik Kontur</h2>
   <p>Untuk menggambar garis kontur secara akurat antara dua titik dengan elevasi berbeda, digunakan rumus interpolasi linier sebagai berikut:</p>
-  <pre><code>x = (yk - y1) / (y2 - y1) × xp</code></pre>
+  <p>
+    $$ x = \frac{y_k - y_1}{y_2 - y_1} \times x_p $$
+  </p>
   <p>
     Keterangan:<br>
     <strong>x</strong> = Jarak dari titik 1 ke titik kontur pada peta <br>
