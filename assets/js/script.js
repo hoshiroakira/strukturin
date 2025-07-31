@@ -156,7 +156,7 @@ const sidebarItems = [
     { 
         name: "Ilmu Ukur Tanah", link: "/civil/surveying/", 
         submenu: [
-            { name: "Menggambar Garis Kontur", link: "civil/surveying/menggambar-garis-kontur" }
+            { name: "Menggambar Garis Kontur", link: "/civil/surveying/menggambar-garis-kontur/" }
         ]
     }
 ];
