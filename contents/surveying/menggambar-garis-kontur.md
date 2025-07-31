@@ -72,7 +72,7 @@ description: Modul menggambar garis kontur membahas mengenai prinsip, prosedur, 
     <li>Garis kontur tidak pernah bercabang atau berujung ganda.</li>
   </ul>
   <h2 id="contoh">Contoh Penyelesaian Soal</h2>
-  <p>Silakan pelajari contoh soal dan cara menggambar garis kontur pada video berikut:</p>
+  <p>Contoh soal dan langkah-langkah menggambar garis kontur dapat dipelajari melalui dokumen yang tersedia pada bagian unduhan di bawah.</p>
 </div>
 <div class="content-hr"><hr></div>
 <div class="content-section">
