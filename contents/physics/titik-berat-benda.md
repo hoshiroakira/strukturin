@@ -107,7 +107,9 @@ description: Materi pengantar mengenai titik berat benda dalam konteks teknik si
     </p>
     <div class="content-hr"><hr></div>
     <h2 id="tautan-unduhan">Unduhan</h2>
+    <p>Berikut adalah dokumen pendukung yang dapat Anda unduh dan pelajari lebih lanjut:</p>
     <p>
         <a href="https://exe.io/c3AZt6I9" target="_blank" rel="noopener noreferrer">File PDF Materi Titik Berat Benda</a>
+        <a href="https://exe.io/gjKKzn" target="_blank" rel="noopener noreferrer">File PDF Modul Titik Berat Benda</a>
     </p>
 </div>
