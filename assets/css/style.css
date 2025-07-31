@@ -360,9 +360,10 @@ hr {
 }
   
 .centered-img {
-    max-width: 100%;
+    display: block;
+    max-height: 250px;
     height: auto;
-    border: 1px solid #000000;
-    display: inline-block;
+    width: auto;
+    max-width: 100%;
+    border: 1px solid #1c1c1c;
 }
-  
