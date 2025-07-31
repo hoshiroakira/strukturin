@@ -153,6 +153,12 @@ const sidebarItems = [
     { name: "Strukturin", link: "/" },
     { name: "Penafian dan Lisensi Konten", link: "/disclaimer/" },
     { name: "Atribusi Konten", link: "/attribution/"},
+    {
+        name: "Fisika Teknik", link: "/civil/physics/",
+        submenu: [
+            { name: "Titik Berat Benda", link: "/civil/physics/titik-berat-benda/"}
+        ]
+    },
     { 
         name: "Ilmu Ukur Tanah", link: "/civil/surveying/", 
         submenu: [
