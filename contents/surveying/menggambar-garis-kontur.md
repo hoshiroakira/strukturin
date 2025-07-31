@@ -80,10 +80,10 @@ description: Modul menggambar garis kontur membahas mengenai prinsip, prosedur, 
   <p>Berikut adalah dokumen pendukung yang dapat Anda unduh dan pelajari lebih lanjut:</p>
   <ul>
     <li>
-      <a href="https://exe.io/CEtlWmcy" target="_blank" rel="noopener">File PDF Penjelasan Langkah Menggambar Garis Kontur</a>
+      <a href="https://exe.io/CEtlWmcy" target="_blank" rel="noopener noreferrer">File PDF Penjelasan Langkah Menggambar Garis Kontur</a>
     </li>
     <li>
-      <a href="https://exe.io/WkoEx" target="_blank" rel="noopener">Template Excel Pengolahan Data Titik Kontur</a>
+      <a href="https://exe.io/WkoEx" target="_blank" rel="noopener noreferrer">Template Excel Pengolahan Data Titik Kontur</a>
     </li>
   </ul>
 </div>
