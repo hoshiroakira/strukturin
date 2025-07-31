@@ -354,3 +354,15 @@ hr {
     margin-right: 0;
     line-height: 1.5;
 }
+
+.image-container {
+    text-align: center;
+}
+  
+.centered-img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #000000;
+    display: inline-block;
+}
+  
